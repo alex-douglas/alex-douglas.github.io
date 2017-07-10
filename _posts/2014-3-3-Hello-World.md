@@ -1,10 +1,10 @@
 ---
 layout: post
-title: First Test Post
+title: Welcome
 ---
 
-Edited the text.
+Thanks for visiting my blog.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+For the most part this blog will be focused on data science and other programming / statistical topics.
 
-Deleted that text too.
+Feel free to reach out if you have any questions, thanks for reading!
