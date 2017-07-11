@@ -27,3 +27,8 @@ By parsing the MTA data we were able to come up with daily totals for various st
 ![screencap of Jupyter notebook]({{site.url}}/images/project_1_jupyter_notebook_2.png)
 
 My partner and I combined this information with demographic data from the American Community Survey to come up with target stations where our hypothetical non-profit should place their volunteers. We targeted 9 stations that were near demographically ideal residential areas (demographically ideal in this case being places with lots of women and tech industry workers), and 7 stations that were not only near NYC tech hubs but also had significantly higher foot traffic than your random NYC subway station.
+
+### Project Conclusion
+Overall I felt like this project provided an excellent introduction to the basics of working with data using python, pandas, matplotlib, and Jupyter. There are dozens of basic commands that a data scientist needs to know to get their data in a consumable form, and while I don't yet have a complete mastery of this material I think I've developed the foundations that should allow me to move on to the more challenging data manipulation concepts.
+
+Looking forward, I'm excited to see how we can incorporate statistical analysis to really understand our data. For this project we found many MTA stations that stood out as being good targets for a women-in-tech organization, but do the differences that make these stations good targets pass a statistical significance test? While I'm not sure if I'll return to this project to do additional analysis, I'll be sure to update the blog if I do.
