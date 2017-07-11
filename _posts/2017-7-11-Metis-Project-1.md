@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metis Project 1
+title: ![Metis]({{site.url}}/images/metis_logo.png) Project 1
 ---
 
 The Metis Data Science Bootcamp is a "project-oriented" program. While our instructors do give lectures, the bulk of our learning is done by completing projects which reinforce specific data science concepts. Over the course of 12 weeks we're expected to complete five of these projects and present the results.
