@@ -20,4 +20,5 @@ We were tasked with using [MTA turnstile data](http://web.mta.info/developers/tu
 ### Data Analysis
 Most of the data analysis was done in a [Jupyter notebook](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html), and involved basic analysis using the <a href="https://en.wikipedia.org/wiki/Pandas_(software)">pandas</a> and [matplotlib](https://en.wikipedia.org/wiki/Matplotlib) libraries (two core libraries that every data scientist needs to know).
 
-![screencap of Jupyter notebook]({{site.url}}/images/project_1_jupyter_notebook.png)
+![screencap of Jupyter notebook]({{site.url}}/images/project_1_jupyter_notebook.png)  
+<span style="color:blue"><center>*screen shot of the Project 1 Jupyter notebook*</center></span>
