@@ -21,4 +21,9 @@ We were tasked with using [MTA turnstile data](http://web.mta.info/developers/tu
 Most of the data analysis was done in a [Jupyter notebook](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html), and involved basic analysis using the <a href="https://en.wikipedia.org/wiki/Pandas_(software)">pandas</a> and [matplotlib](https://en.wikipedia.org/wiki/Matplotlib) libraries (two core libraries that every data scientist needs to know).
 
 ![screencap of Jupyter notebook]({{site.url}}/images/project_1_jupyter_notebook.png)  
-<span style="color:blue"><center>*screen shot of the Project 1 Jupyter notebook*</center></span>
+
+By parsing the MTA data we were able to come up with daily totals for various stations across a given time frame. Below shows the daily ridership values for three random stations over an approximately one month period:
+
+![screencap of Jupyter notebook]({{site.url}}/images/project_1_jupyter_notebook_2.png)
+
+My partner and I combined this information with demographic data from the American Community Survey to come up with target stations where our hypothetical non-profit should place their volunteers. We targeted 9 stations that were near demographically ideal residential areas (demographically ideal in this case being places with lots of women and tech industry workers), and 7 stations that were not only near NYC tech hubs but also had significantly higher foot traffic than your random NYC subway station.
