@@ -8,12 +8,14 @@ I recently set out to see if I could predict margin of victory for U.S. House of
 
 I would think that biographical information about individual politicians should have no impact on their margin of victory. Other variables are likely to drown out any influence marriage, children, or education might have on the outcome of the elections. However, humans have a well-documented propensity to bias, so perhaps this bias was influencing how they voted in federal elections.
 
-On the more personal side of things, I've also been interested in improving my web scrapping skills, so I figured this was an excellent oppotunity to improve those as well. To get the biographical details of each current House Representative I scrapped each politician's Wikipedia page for details like number of children, marital status, gender, and education (type of degree). Below is an example of a Wikipedia page that has everything I'm looking for.
+Besides biographical variables I also collected the margins of victory in 2014 for each district, as this was likely to significantly predict margins in 2016. I also gathered each candidate's political party, as this was the other major factor I could think of that might predict how large each candidate's margin of victory was.
+
+On the more personal side of things, I've also been interested in improving my web scrapping skills, so I figured this was an excellent opportunity to improve those as well. To get the biographical details of each current House Representative I scrapped each politician's Wikipedia page for details like number of children, marital status, gender, and education (type of degree). Below is an example of a Wikipedia page that has everything I'm looking for.
 
 ![screencap of Representative's Wikipedia page]({{site.url}}/images/wiki_screencap.png)
 
 ---
-### Scrapping Wikipedia
+### Scraping Wikipedia
 I used [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) to scrape Wikipedia, and while there are other more powerful scraping tools out there Wikipedia is relatively straight-forward enough that BS was all I needed.
 
 Web scraping is not an automatic process. It's especially difficult when you're used to turning to programming code to automate and deliver complicated results in a timely fashion. To accurately scrape a given webpage requires digging through the HTML and iterating your BS code until you're able to pluck out the specific piece of data you're targeting.
@@ -38,4 +40,4 @@ This project accomplished two main things for me: improving my web scrapping ski
 
 If I was to consider other investigations related to this data, it might be valuable to see if biographical information influences closely contested elections. In politics it doesn’t really matter whether you win by half a percent or 70%, all that really matters is that you win. So perhaps gathering biographical information on the losers of elections as well as the winners might reveal something that this margin of victory data didn’t.
 
-It also might be worth seeing if the margins change within a district when a new candidate runs. For example, if a white married female Representative was to retire in 2018 and an American-American single male was to run in her place, we could see if his margin of victory differs significantly from historical values and parse out bias that way. 
+It also might be worth seeing if the margins change within a district when a new candidate runs. For example, if a white married female Representative was to retire in 2018 and an American-American single male was to run in her place, we could see if his margin of victory differs significantly from historical values and parse out bias that way.
